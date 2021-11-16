@@ -1,4 +1,4 @@
-import { CarouselModern } from './index.js';
+import { CarouselModern } from '../lib/index.js';
 
 describe('All tests', () => {
   beforeEach(() => {

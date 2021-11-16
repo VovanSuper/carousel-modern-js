@@ -1,13 +1,16 @@
 {
   "name": "carousel-modern",
-  "version": "1.0.0",
+  "version": "0.0.1-alpha.1",
   "description": "",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
     "test": "jest --watch"
   },
   "keywords": [],
-  "author": "",
+  "author": {
+    "email": "ovsyukov@yandex.com",
+    "name": "Vladimir Ovsyukov"
+  },
   "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.16.0",
