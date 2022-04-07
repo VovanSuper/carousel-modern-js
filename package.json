@@ -4,7 +4,8 @@
   "description": "",
   "main": "lib/index.js",
   "scripts": {
-    "test": "jest --watch"
+    "test": "jest --watch --colors",
+    "majestic": "majestic --app -- --colors"
   },
   "keywords": [],
   "author": {
@@ -16,9 +17,17 @@
     "@babel/core": "^7.16.0",
     "@babel/plugin-transform-modules-commonjs": "^7.16.0",
     "@babel/preset-env": "^7.16.0",
-    "@types/jest": "^27.0.2",
-    "@types/node": "^16.11.7",
+    "@types/jest": "^27.0.3",
+    "@types/node": "^16.11.9",
+    "@types/web": "^0.0.47",
     "babel-jest": "^27.3.1",
-    "jest": "^27.3.1"
+    "eslint": "^8.3.0",
+    "eslint-plugin-jest": "^25.2.4",
+    "eslint-plugin-jest-formatting": "^3.1.0",
+    "jest": "^27.3.1",
+    "jest-chain": "^1.1.5",
+    "jest-dashboard": "^0.3.1",
+    "jest-extended": "^1.1.0",
+    "majestic": "^1.8.1"
   }
 }
